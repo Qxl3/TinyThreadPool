@@ -1,0 +1,1 @@
+g++ -o "/project/TinyThreadPool/bin/x64/Debug/TinyThreadPool.out" -Wl,--no-undefined -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack -pthread /project/TinyThreadPool/obj/x64/Debug/TaskQueue.o /project/TinyThreadPool/obj/x64/Debug/Test.o /project/TinyThreadPool/obj/x64/Debug/ThreadPool.o

@@ -1,0 +1,29 @@
+﻿  正在验证源
+  正在将源远程复制到“47.115.211.246”
+  正在验证体系结构
+  正在验证体系结构
+  正在启动远程生成
+  正在编译源:
+  TaskQueue.cpp
+D:\c++\Project\TinyThreadPool\TinyThreadPool\TaskQueue.h(40,23): warning : conversion to ‘int’ from ‘std::queue<Task>::size_type {aka long unsigned int}’ may alter its value [-Wconversion]
+D:\c++\Project\TinyThreadPool\TinyThreadPool\TaskQueue.h(40,23): warning :    return m_taskQ.size();
+D:\c++\Project\TinyThreadPool\TinyThreadPool\TaskQueue.h(40,23): warning :                        ^
+  Test.cpp
+D:\c++\Project\TinyThreadPool\TinyThreadPool\TaskQueue.h(40,23): warning : conversion to ‘int’ from ‘std::queue<Task>::size_type {aka long unsigned int}’ may alter its value [-Wconversion]
+D:\c++\Project\TinyThreadPool\TinyThreadPool\TaskQueue.h(40,23): warning :    return m_taskQ.size();
+D:\c++\Project\TinyThreadPool\TinyThreadPool\TaskQueue.h(40,23): warning :                        ^
+  ThreadPool.cpp
+D:\c++\Project\TinyThreadPool\TinyThreadPool\TaskQueue.h(40,23): warning : conversion to ‘int’ from ‘std::queue<Task>::size_type {aka long unsigned int}’ may alter its value [-Wconversion]
+D:\c++\Project\TinyThreadPool\TinyThreadPool\TaskQueue.h(40,23): warning :    return m_taskQ.size();
+D:\c++\Project\TinyThreadPool\TinyThreadPool\TaskQueue.h(40,23): warning :                        ^
+D:\c++\Project\TinyThreadPool\TinyThreadPool\ThreadPool.cpp(150,16): warning : deleting ‘void*’ is undefined [enabled by default]
+D:\c++\Project\TinyThreadPool\TinyThreadPool\ThreadPool.cpp(150,16): warning :     delete task.arg;//这里因为在测试的时候，arg指向的是一块堆内存，所以删除
+D:\c++\Project\TinyThreadPool\TinyThreadPool\ThreadPool.cpp(150,16): warning :                 ^
+D:\c++\Project\TinyThreadPool\TinyThreadPool\ThreadPool.cpp(161,1): warning : no return statement in function returning non-void [-Wreturn-type]
+D:\c++\Project\TinyThreadPool\TinyThreadPool\ThreadPool.cpp(161,1): warning :  }
+D:\c++\Project\TinyThreadPool\TinyThreadPool\ThreadPool.cpp(161,1): warning :  ^
+D:\c++\Project\TinyThreadPool\TinyThreadPool\ThreadPool.cpp(214,1): warning : no return statement in function returning non-void [-Wreturn-type]
+D:\c++\Project\TinyThreadPool\TinyThreadPool\ThreadPool.cpp(214,1): warning :  }
+D:\c++\Project\TinyThreadPool\TinyThreadPool\ThreadPool.cpp(214,1): warning :  ^
+  正在链接对象
+  TinyThreadPool.vcxproj -> D:\c++\Project\TinyThreadPool\TinyThreadPool\bin\x64\Debug\TinyThreadPool.out
